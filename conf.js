@@ -14,5 +14,14 @@ const defaultParams = {
     baseUrl: '\${params.url}',
     specs: specs,
     params: defaultParams,
-
+    connectionConfigs: {
+      direct: {
+          binaries: {
+              chromedriver: {
+                  version: "111.0.5563.64"
+              }
+          }
+      }
+   } // can be overridden via cli `--params.<key>=<value>`
+    
   };
