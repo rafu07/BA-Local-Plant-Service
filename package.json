@@ -16,7 +16,12 @@
   },
   "scripts": {
     "start": "cds run",
-    "watch-plantserviceapp": "cds watch --open plantserviceapp/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4"
+    "watch-plantserviceapp": "cds watch --open plantserviceapp/webapp/index.html?sap-ui-xx-viewCache=false#fe-lrop-v4",
+    "mykarma": "cd app/supplier-management/ && npm install && npm run karma",
+    "mykarma:ci": "cd app/supplier-management/ && npm install -g npm@latest && npm install && npm run karma:ci",
+    "ci-lint": "eslint . --max-warnings=0",
+    "initlint" : "npm install eslint && npm run ci-lint",
+    "uiveri5" : "npm i @ui5/uiveri5 && uiveri5"
   },
   "cds": {
     "requires": {
