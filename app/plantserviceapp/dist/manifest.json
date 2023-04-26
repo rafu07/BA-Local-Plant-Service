@@ -20,7 +20,7 @@
                     "subTitle": "",
                     "icon": ""
                 }
-            }   
+            }
         },
         "title": "{{appTitle}}",
         "description": "{{appDescription}}",
@@ -43,8 +43,7 @@
     "sap.cloud": {
         "public": true,
         "service": "i538951_service_p"
-    },      
-    
+    },
     "sap.ui": {
         "technology": "UI5",
         "icons": {

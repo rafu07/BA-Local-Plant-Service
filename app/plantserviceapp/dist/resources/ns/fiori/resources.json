@@ -1,0 +1,31 @@
+{
+    "resources": [
+        {
+            "name": "../plantserviceapp/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "../plantserviceapp/manifest.json"
+        },
+        {
+            "name": "../plantserviceapp/Component.js"
+        },
+        {
+            "name": "../plantserviceapp/manifest-bundle.zip"
+        },
+        {
+            "name": "../plantserviceapp/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "../plantserviceapp/Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../sap-ui-version.json"
+        },
+        {
+            "name": "../plantserviceapp/index.html"
+        }
+    ]
+}
